@@ -82,6 +82,7 @@
     </div>
     <?php require "./partials/footer.php"; ?>
     <?php require "./partials/scripts.php"; ?>
+    <script src="./assets/js/contact.js"></script>
 </body>
 
 </html>
