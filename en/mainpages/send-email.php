@@ -1,5 +1,5 @@
 <?php
-require "vendor/autoload.php";
+require "../vendor/autoload.php";
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
@@ -16,8 +16,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $mail->isSMTP();
   $mail->Host = 'smtp.gmail.com';
   $mail->SMTPAuth = true;
-  $mail->Username = 'said.hammane1@gmail.com';
-  $mail->Password = 'ubvpfeazzgyvlejb';
+  $mail->Username = 'medm00871@gmail.com';
+  $mail->Password = 'jtluoiiudbwddymb';
   $mail->SMTPSecure = 'tls';
   $mail->Port = 587;
 
@@ -46,5 +46,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   } else {
     echo 'An error occurred while sending the email.';
   }
+
+
 }
 ?>

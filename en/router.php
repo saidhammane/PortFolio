@@ -18,6 +18,9 @@ switch ($request_uri) {
     case $WEBROOT.'/contact':
         require $maipageURL.'contact.php';
         break;
+    case $WEBROOT.'/sendmail':
+        require $maipageURL.'send-email.php';
+        break;
     default:
         header('HTTP/1.0 404 Not Found');
         echo 'Page not found';
