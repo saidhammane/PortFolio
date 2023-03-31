@@ -11,10 +11,10 @@ if (strpos($request_uri, '?') !== false) {
 $request_uri = trim($request_uri, '/');
 // Map request URI to PHP script
 switch ($request_uri) {
-    case 'portfolio':
+    case 'portfolio-v2':
         require $maipageURL.'home.php';
         break;
-    case 'portfolio/contact':
+    case 'portfolio-v2/contact':
         require $maipageURL.'contact.php';
         break;
     default:

@@ -8,7 +8,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto align-items-center">
                 <li class="nav-item">
-                    <a class="nav-link" href="/portfolio">Home</a>
+                    <a class="nav-link" href="/portfolio-v2">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#about">About</a>
