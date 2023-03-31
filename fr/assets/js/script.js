@@ -11,8 +11,8 @@ $(document).ready(function () {
 			data: formData,
 			success: function (response) {
 				Swal.fire({
-					icon: 'success',
-					title: 'Your mail has been sent!',
+					icon: 'succès',
+					title: 'Votre message a été envoyé !',
 					showConfirmButton: false,
 					timer: 1500
 				});
@@ -37,7 +37,7 @@ function copyUsername(username) {
 	textarea.select();
 	document.execCommand("copy");
 	document.body.removeChild(textarea);
-	toastr.success("<span>Username copied to clipboard!</span>", "", {
+	toastr.success("<span>Nom d'utilisateur copié dans le presse-papiers !</span>", "", {
 		"progressBar": true,
 		"timeOut": 5000,
 		"extendedTimeOut": 1000,

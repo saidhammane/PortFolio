@@ -1,7 +1,7 @@
 <?php
 $request_uri = $_SERVER['REQUEST_URI'];
 $maipageURL = "mainpages/";
-$WEBROOT = "portfolio";
+$WEBROOT = "portfolio/fr";
 
 // Remove query string from request URI
 if (strpos($request_uri, '?') !== false) {
@@ -14,9 +14,6 @@ $request_uri = trim($request_uri, '/');
 switch ($request_uri) {
     case $WEBROOT:
         require $maipageURL.'home.php';
-        break;
-    case $WEBROOT.'/english':
-        require 'index.php';
         break;
     case $WEBROOT.'/contact':
         require $maipageURL.'contact.php';
