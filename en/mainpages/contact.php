@@ -7,7 +7,7 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
-
+    <?php require "captcha.php"; ?>
     <div id="afterLoader">
         <?php require "./partials/navbar.php"; ?>
         <!-- Contact Section -->
@@ -37,6 +37,8 @@
                                 <textarea name="message" id="message" cols="30" rows="5" class="form-control"
                                     placeholder="Message"></textarea>
                             </div>
+                            <div class="h-captcha" data-sitekey="c53f4092-95f1-427f-ab50-3e5d39ce1c5a"></div>
+
                             <button type="submit" class="btn btn-primary btn-block rounded w-lg" id="btnSubmit">
                                 <div class="loader"></div>
                                 <span id="btnText">Send Message</span>
