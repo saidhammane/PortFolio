@@ -22,7 +22,6 @@ switch ($request_uri) {
         require $maipageURL.'send-email.php';
         break;
     default:
-        header('HTTP/1.0 404 Not Found');
-        echo 'Page not found';
+        require $maipageURL.'404.php';
         break;
 }

@@ -9,11 +9,8 @@
     <link rel="stylesheet" href="assets/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
-    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
-    <!-- MDB -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css" rel="stylesheet" />
 </head>
 
@@ -142,6 +139,8 @@
             <div class="particle particle711"></div>
         </div>
     </div>
+    <!-- Navbar -->
+
     <div id="page">
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -170,10 +169,11 @@
                     <!-- Left links -->
 
                     <div class="d-flex align-items-center">
-                        <a type="button" class="btn btn-link px-3 me-2">
+                        <a type="button" href="https://api.whatsapp.com/send?phone=0763483791"
+                            class="btn btn-link px-3 me-2">
                             <i class="fab fa-whatsapp"></i>
                         </a>
-                        <a type="button" class="btn btn-primary px-3 me-2">
+                        <a type="button" href="mailto:said.hammane1@gmail.com" class="btn btn-primary px-3 me-2">
                             <i class="fas fa-at"></i>
                         </a>
                         <a class="btn  px-3" href="https://github.com/mdbootstrap/mdb-ui-kit" role="button"><i
@@ -184,8 +184,7 @@
             </div>
             <!-- Container wrapper -->
         </nav>
-        <!-- Navbar -->
-
+        
         <div class="container p-5">
             <div class="row">
                 <div class="col">
