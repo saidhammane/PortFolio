@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <div>
+    <!-- <div>
         <div class="background background0"></div>
         <div class="background background1"></div>
         <div class="background background2"></div>
@@ -138,17 +138,17 @@
             <div class="particle particle710"></div>
             <div class="particle particle711"></div>
         </div>
-    </div>
+    </div> -->
     <!-- Navbar -->
 
     <div id="page">
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
             <!-- Container wrapper -->
             <div class="container">
                 <!-- Navbar brand -->
                 <a class="navbar-brand me-2" href="https://mdbgo.com/">
-                    <div id="textLogo">SAID HAMMANE</div>
+                    <div class="textLogo">SAID HAMMANE</div>
                 </a>
 
                 <!-- Toggle button -->
@@ -176,7 +176,7 @@
                         <a type="button" href="mailto:said.hammane1@gmail.com" class="btn btn-primary px-3 me-2">
                             <i class="fas fa-at"></i>
                         </a>
-                        <a class="btn  px-3" href="https://github.com/mdbootstrap/mdb-ui-kit" role="button"><i
+                        <a class="btn  px-3" href="https://www.instagram.com/said.hammane/" role="button"><i
                                 class="fab fa-instagram"></i></a>
                     </div>
                 </div>
@@ -184,50 +184,36 @@
             </div>
             <!-- Container wrapper -->
         </nav>
-        
-        <div class="container p-5">
-            <div class="row">
-                <div class="col">
-                    <!-- <div class="containerr">
-                    <div class="box">
-                        <div class="content">
-
-                        </div>
-                    </div>
-                </div> -->
-                </div>
-                <div class="col">
-                    <div class="containerr">
-                        <div class="box">
-                            <div class="content">
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="containerr">
-                        <div class="box">
-                            <div class="content">
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <!-- <div class="containerr">
-                    <div class="box">
-                        <div class="content">
-
-                        </div>
-                    </div>
-                </div> -->
-                </div>
+        <center class="mb-5">
+            <div class="loader"></div>
+        </center>
+        <center>
+            <div class="cards">
+                <a href="fr" class="manguageLink textLogo">
+                    FRANÇAIS
+                    <lord-icon src="https://cdn.lordicon.com/dykrlspk.json" trigger="hover"
+                        style="width:100px;height:100px">
+                    </lord-icon>
+                </a>
             </div>
+            <div class="cards">
+                <a href="en" class="manguageLink textLogo">
+                ENGLISH <br>
+                    <lord-icon src="https://cdn.lordicon.com/dykrlspk.json" trigger="hover"
+                        style="width:100px;height:100px">
+                    </lord-icon>
+                </a>
+            </div>
+        </center>
+        <div style="background-color: #e5e5f7; height:50vh;">
+
         </div>
     </div>
+
+
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script>
     <script src="assets/script.js"></script>
+    <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
 </body>
 
 </html>
