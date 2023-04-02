@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <div>
+    <!-- <div>
         <div class="background background0"></div>
         <div class="background background1"></div>
         <div class="background background2"></div>
@@ -138,7 +138,7 @@
             <div class="particle particle710"></div>
             <div class="particle particle711"></div>
         </div>
-    </div>
+    </div> -->
     <!-- Navbar -->
 
     <div id="page">
@@ -155,7 +155,7 @@
                 <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
                     data-mdb-target="#navbarButtonsExample" aria-controls="navbarButtonsExample" aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-bars" id="fa-bars"></i>
                 </button>
 
                 <!-- Collapsible wrapper -->
@@ -187,7 +187,7 @@
         <center class="mb-5">
             <div class="loader"></div>
         </center>
-        <center>
+        <center class="mb-8">
             <div class="cards">
                 <a href="fr" class="manguageLink textLogo">
                     FRANÇAIS
@@ -198,17 +198,46 @@
             </div>
             <div class="cards">
                 <a href="en" class="manguageLink textLogo">
-                ENGLISH <br>
+                    ENGLISH <br>
                     <lord-icon src="https://cdn.lordicon.com/dykrlspk.json" trigger="hover"
                         style="width:100px;height:100px">
                     </lord-icon>
                 </a>
             </div>
         </center>
-        <div style="background-color: #e5e5f7; height:50vh;">
+        <center>
+            <div style=" height:100vh;" class="container ">
+                <div class="row mb-2">
+                    <div class="col-md">
+                        <lord-icon src="https://cdn.lordicon.com/cllunfud.json" trigger="hover"
+                            style="width:100px;height:100px">
+                        </lord-icon>
+                    </div>
+                    <div class="col-md">
+                        <lord-icon src="https://cdn.lordicon.com/fihkmkwt.json" trigger="hover"
+                            style="width:100px;height:100px">
+                        </lord-icon>
+                    </div>
+                    <div class="col-md">
+                        <lord-icon src="https://cdn.lordicon.com/hbwqfgcf.json" trigger="hover"
+                            style="width:100px;height:100px">
+                        </lord-icon>
+                    </div>
+                    <div class="col-md">
+                        <lord-icon src="https://cdn.lordicon.com/osbjlbsb.json" trigger="hover"
+                            style="width:100px;height:100px">
+                        </lord-icon>
+                    </div>
+                </div>
 
-        </div>
+                <img src="copyright.png" alt="copyright">
+                <div class="textLogo">
+                    SAID HAMMANE <script>document.write(new Date().getFullYear())</script>
+                </div>
+            </div>
+        </center>
     </div>
+
 
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script>

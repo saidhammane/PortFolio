@@ -3,10 +3,10 @@
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,700,900,400italic,700italic,900italic);
 
-.manguageLink{
+.manguageLink {
     position: relative;
     justify-content: center;
-    top:25%;
+    top: 25%;
     letter-spacing: 3px;
 }
 
@@ -249,6 +249,10 @@ a:hover {
     }
 }
 
+#fa-bars {
+    color: #ff7a57 !important;
+}
+
 .textLogo {
     font-family: 'Sunny Spells', sans-serif;
     color: #ff7a57;
@@ -401,7 +405,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     background: #fff;
     position: relative;
-    overflow: hidden;
     font-size: 100%;
     text-align: center;
 }
