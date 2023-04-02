@@ -12,10 +12,11 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="favicon.png" />
 </head>
 
 <body>
-    <!-- <div>
+    <div>
         <div class="background background0"></div>
         <div class="background background1"></div>
         <div class="background background2"></div>
@@ -138,7 +139,7 @@
             <div class="particle particle710"></div>
             <div class="particle particle711"></div>
         </div>
-    </div> -->
+    </div>
     <!-- Navbar -->
 
     <div id="page">
@@ -147,7 +148,7 @@
             <!-- Container wrapper -->
             <div class="container">
                 <!-- Navbar brand -->
-                <a class="navbar-brand me-2" href="https://mdbgo.com/">
+                <a class="navbar-brand me-2" href="">
                     <div class="textLogo">SAID HAMMANE</div>
                 </a>
 
@@ -169,14 +170,14 @@
                     <!-- Left links -->
 
                     <div class="d-flex align-items-center">
-                        <a type="button" href="https://api.whatsapp.com/send?phone=0763483791"
+                        <a type="button" href="https://api.whatsapp.com/send?phone=0763483791" target="_blank"
                             class="btn btn-link px-3 me-2">
                             <i class="fab fa-whatsapp"></i>
                         </a>
                         <a type="button" href="mailto:said.hammane1@gmail.com" class="btn btn-primary px-3 me-2">
                             <i class="fas fa-at"></i>
                         </a>
-                        <a class="btn  px-3" href="https://www.instagram.com/said.hammane/" role="button"><i
+                        <a class="btn  px-3" href="https://www.instagram.com/said.hammane/" target="_blank" role="button"><i
                                 class="fab fa-instagram"></i></a>
                     </div>
                 </div>
