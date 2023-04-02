@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <!-- <div>
+    <div>
         <div class="background background0"></div>
         <div class="background background1"></div>
         <div class="background background2"></div>
@@ -138,7 +138,7 @@
             <div class="particle particle710"></div>
             <div class="particle particle711"></div>
         </div>
-    </div> -->
+    </div>
     <!-- Navbar -->
 
     <div id="page">
