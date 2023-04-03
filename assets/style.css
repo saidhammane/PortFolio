@@ -194,7 +194,8 @@ a:hover {
 
 @keyframes eyeMove {
     0% {
-        transform: translate(0, 0)
+        transform: translate(0, 0);
+        
     }
 
     20% {
@@ -434,55 +435,55 @@ body {
 .background0 {
     left: 0%;
     height: 100vh;
-    background-color: #eb4747;
+    background-color: #ff7a57;
 }
 
 .background1 {
     left: 12.5%;
     height: 100vh;
-    background-color: #ebc247;
+    background-color: #ff8767;
 }
 
 .background2 {
     left: 25%;
     height: 100vh;
-    background-color: #99eb47;
+    background-color: #ff9478;
 }
 
 .background3 {
     left: 37.5%;
     height: 100vh;
-    background-color: #47eb70;
+    background-color: #ffa189;
 }
 
 .background4 {
     left: 50%;
     height: 100vh;
-    background-color: #47ebeb;
+    background-color: #ffaf9a;
 }
 
 .background5 {
     left: 62.5%;
     height: 100vh;
-    background-color: #4770eb;
+    background-color: #ffbcab;
 }
 
 .background6 {
     left: 75%;
     height: 100vh;
-    background-color: #9947eb;
+    background-color: #ffc9bb;
 }
 
 .background7 {
     left: 87.5%;
     height: 100vh;
-    background-color: #eb47c2;
+    background-color: #ffd7cc;
 }
 
 .background8 {
     left: 100%;
     height: 100vh;
-    background-color: #eb4747;
+    background-color: #ffe4dd;
 }
 
 /*

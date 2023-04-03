@@ -15,8 +15,8 @@
     <link rel="icon" type="image/png" href="favicon.png" />
 </head>
 
-<body>
-    <div>
+<body style="overflow-x: hidden;">
+    <div >
         <div class="background background0"></div>
         <div class="background background1"></div>
         <div class="background background2"></div>
@@ -142,7 +142,7 @@
     </div>
     <!-- Navbar -->
 
-    <div id="page">
+    <div id="page" >
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
             <!-- Container wrapper -->
@@ -177,8 +177,8 @@
                         <a type="button" href="mailto:said.hammane1@gmail.com" class="btn btn-primary px-3 me-2">
                             <i class="fas fa-at"></i>
                         </a>
-                        <a class="btn  px-3" href="https://www.instagram.com/said.hammane/" target="_blank" role="button"><i
-                                class="fab fa-instagram"></i></a>
+                        <a class="btn  px-3" href="https://www.instagram.com/said.hammane/" target="_blank"
+                            role="button"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
                 <!-- Collapsible wrapper -->
@@ -233,7 +233,9 @@
 
                 <img src="copyright.png" alt="copyright">
                 <div class="textLogo">
-                    SAID HAMMANE <script>document.write(new Date().getFullYear())</script>
+                    SAID HAMMANE <script>
+                    document.write(new Date().getFullYear())
+                    </script>
                 </div>
             </div>
         </center>
