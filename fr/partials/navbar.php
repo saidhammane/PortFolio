@@ -20,7 +20,7 @@
                     <a class="nav-link" href="contact">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="- btn btn-primary rounded ml-4" href="/contact">COMMENCER MAINTENANT</a>
+                    <a class="- btn btn-primary rounded ml-4" href="contact">COMMENCER MAINTENANT</a>
                 </li>
             </ul>
         </div>
@@ -31,15 +31,15 @@
 <header class="header">
     <div class="container">
         <div class="infos">
-            <h6 class="subtitle">Bonjour, je suis</h6>
-            <h6 class="title">Saïd HAMMANE</h6>
+            <div class="h6" class="subtitle">Bonjour, je suis</div>
+            <div class="h6" class="title">Saïd HAMMANE</div>
             <p>Développeur Full Stack</p>
             <div class="buttons pt-3">
                 <a href="contact" class="btn btn-primary rounded">COMMENCER MAINTENANT</a>
                 <a href="assets/files/cv.pdf" target="_blank" class="btn btn-dark rounded">TÉLÉCHARGER CV</a>
             </div>
             <div class="socials mt-4">
-                <a class="social-item" href="javascript:void(0)" onclick="copyUsername('overload#6735')"><i
+                <a class="social-item" href="javascript:void(0)" onclick="copyUsername('overload6735')"><i
                         class="fa-brands fa-discord"></i></a>
                 <a class="social-item" href="mailto:said.hammane1@gmail.com"><i class="fa-regular fa-envelope"></i></a>
                 <a class="social-item" href="https://www.instagram.com/said.hammane/" target="_blank"><i

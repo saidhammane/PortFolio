@@ -4,9 +4,7 @@ $maipageURL = "mainpages/";
 $WEBROOT = "portfolio/fr";
 
 // Remove query string from request URI
-if (strpos($request_uri, '?') !== false) {
-    $request_uri = substr($request_uri, 0, strpos($request_uri, '?'));
-}
+if (strpos($request_uri, '?') !== false) $request_uri = substr($request_uri, 0, strpos($request_uri, '?'));
 
 // Remove leading and trailing slashes from request URI
 $request_uri = trim($request_uri, '/');
